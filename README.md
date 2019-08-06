@@ -21,19 +21,11 @@ laravel-widgets
 Установка пакета с помощью Composer.
 
 ```
-composer require klisl/laravel-comments
+composer require veseluy-rodjer/laravel-comments
 ```
-
-Если версия Laravel ниже чем 5.5 - добавьте в файл `config/app.php` вашего проекта в конец массива `providers` :
-
-```php
-Klisl\Comments\CommentsServiceProvider::class,
-```
-Для версии >=5.5 данный шаг пропустить.
-
 После этого выполните в консоли команду публикации нужных ресурсов:
 ```
-php artisan vendor:publish --provider="Klisl\Comments\CommentsServiceProvider"
+php artisan vendor:publish --provider="VeseluyRodjer\Comments\CommentsServiceProvider"
 ```
 
 Проверить, возможно изменить настройки пакета в файле config\comments.php.
