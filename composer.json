@@ -15,12 +15,6 @@
 			"role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/veseluy-rodjer/laravel-comments.git"
-        }
-    ],
 	"minimum-stability": "stable",
 	"require": {
 	"klisl/laravel-comments": "dev",
