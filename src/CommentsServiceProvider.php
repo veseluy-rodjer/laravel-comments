@@ -1,6 +1,6 @@
 <?php
 
-namespace Klisl\Comments;
+namespace VeseluyRodjer\Comments;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
