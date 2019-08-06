@@ -17,19 +17,18 @@
     ],
 	"minimum-stability": "stable",
 	"require": {
-	"klisl/laravel-comments": "dev",
-        "php": ">=5.4.0"
+	        "php": ">=5.4.0"
     },
 	"extra": {
-      "laravel": {
-        "providers": [
-          "Klisl\\Comments\\CommentsServiceProvider"
-        ]
-      }
+ 	     "laravel": {
+        		"providers": [
+          			"veseluy-rodjer\\Comments\\CommentsServiceProvider"
+        		]
+      		}
     },
     "autoload": {
         "psr-4": {
-			"Klisl\\Comments\\": "src"
+			"veseluy-rodjer\\Comments\\": "src"
         }
     }
 }
