@@ -22,13 +22,13 @@
 	"extra": {
  	     "laravel": {
         		"providers": [
-          			"veseluy-rodjer\\Comments\\CommentsServiceProvider"
+          			"VeseluyRodjer\\Comments\\CommentsServiceProvider"
         		]
       		}
     },
     "autoload": {
         "psr-4": {
-			"veseluy-rodjer\\Comments\\": "src"
+			"VeseluyRodjer\\Comments\\": "src"
         }
     }
 }
