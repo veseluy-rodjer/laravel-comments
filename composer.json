@@ -18,7 +18,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/veseluy-rodjer/laravel-comments"
+            "url": "https://github.com/veseluy-rodjer/laravel-comments.git"
         }
     ],
 	"minimum-stability": "stable",
