@@ -12,6 +12,7 @@ class CommentsServiceProvider extends ServiceProvider
     /** @return void */
     public function boot()
     {
+        //Загружаем свой файл маршрутов? обрабатывающий POST запрос, отправляемый формой с помощью AJAX.
 	$this->loadRoutesFrom(__DIR__ . '/../routes/route.php');
 
 	//Публикуем
