@@ -12,6 +12,7 @@ class CommentsServiceProvider extends ServiceProvider
     /** @return void */
     public function boot()
     {
+	$this->loadRoutesFrom(__DIR__ . '/../routes/route.php');
 
 	//Публикуем
         $this->publishes([__DIR__ . '/../config/' => config_path()]);
