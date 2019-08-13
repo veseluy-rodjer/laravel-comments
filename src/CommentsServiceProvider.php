@@ -16,7 +16,7 @@ class CommentsServiceProvider extends ServiceProvider
 	$this->loadRoutesFrom(__DIR__ . '/../routes/route.php');
 	    
 	// Создание  таблицы "Comments"
-	$this->loadMigrationsFrom(__DIR__.'../database/migrations');
+	$this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
 	//Публикуем
         $this->publishes([__DIR__ . '/../config/' => config_path()]);
